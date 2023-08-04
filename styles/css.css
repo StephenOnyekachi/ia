@@ -1,0 +1,205 @@
+
+*{
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.menu{
+    padding: 15px;
+    background-color: black;
+}
+.menu ul li{
+    display: flex;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.menu ul li a{
+    font-weight: lighter;
+    transition: all 1.5s ease-in-out;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.body{
+    background-color: rgb(219, 219, 219);
+    height: 100vh;
+    padding: 20px;
+}
+.form{
+    margin: 50px 100px;
+    padding: 80px;
+    background-color: #ffffff;
+}
+.form p{
+    text-align: center;
+    font-size: 20px;
+}
+.form label{
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 5px;
+}
+.form input{
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 0px;
+    margin: 10px 5px;
+}
+.form button{
+    padding: 10px;
+    border-radius: 0px;
+    margin: 10px 5px;
+    outline: none;
+}
+.option{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.option a{
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 2rem;
+    color: #000000;
+}
+.option a:hover{
+    text-decoration: none;
+}
+.darshbord{
+    padding: 10px;
+    background-color: #0a0a0a;
+    height: 100vh;
+}
+.search{
+    padding: 10px;
+}
+.search form{
+    display: flex;
+}
+.img img{ 
+    border-radius: 50%;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}
+.info{
+    border: 1px solid rgb(34, 34, 34);
+    align-content: center;
+    padding: 10px;
+    margin: 20px;
+    width: 70%;
+}
+.info h3{
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.result{
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    height: 85vh;
+    overflow-y: scroll;
+}
+.result h3{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: lighter;
+}
+.resultb{
+    border: 1px solid rgb(48, 48, 48);
+    padding: 5px;
+    margin: 5px;
+}
+.tr{
+    width: 90%;
+    padding: 5px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-weight: bold;
+}
+.tc{
+    width: 90%;
+    padding: 5px;
+    color: rgb(48, 48, 48);
+    font-weight: lighter;
+}
+.result p{
+    padding: 10px;
+    width: 100%;
+}
+.ai-chat{
+    margin-right: 10px;
+}
+.manual-chat{
+    margin-right: 10px;
+}
+.result form{
+    position: relative;
+}
+.text{
+    position: fixed;
+    bottom: 70px;
+    /* left: 0; */
+    width: 100%;
+}
+.text input{
+    padding: 10px;
+    width: 48%;
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+}
+.text button{
+    padding: 10px;
+    width: 10%;
+    border: none;
+    outline: none;
+}
+.info i{
+    padding: 5px;
+}
+
+/* .student{
+    border: 1px solid white;
+} */
+.student ul{
+    padding: 0px;
+}
+.student ul li{
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+}
+.student ul li a{
+    color: #c4c4c4;
+    font-size: 16px;
+    transition: all 1.5s ease-in-out;
+}
+.student ul li a:hover{
+    color: #c4c4c4;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #c4c4c4;
+}
+.students{
+    border: 1px solid rgb(189, 189, 189);
+    margin: 2px;
+}
+.mew-student form input{
+    margin: 5px;
+    border-radius: 0px;
+    padding: 10px;
+}
+.mew-student form button{
+    margin: 5px;
+    border-radius: 0px;
+    padding: 10px;
+}
+
